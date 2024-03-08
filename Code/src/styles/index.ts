@@ -11,9 +11,14 @@ export const { styled, getCssText, globalCss } = createStitches({
 
       green500: '#00875f',
       green300: '#00b37e',
+
+      'purple-gradient': 'linear-gradient(180deg, #ae65d6 0%, #480b6a 100%)',
+      'rs-gradient': 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
     },
 
     fontSizes: {
+      xs: '0.75rem',
+      sm: '1rem',
       md: '1.125rem',
       lg: '1.25rem',
       xl: '1.5rem',

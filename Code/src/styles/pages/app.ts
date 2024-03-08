@@ -14,3 +14,20 @@ export const Header = styled('header', {
   maxWidth: 1180,
   margin: '0 auto',
 })
+
+export const Logo = styled('div', {
+  display: 'flex',
+  gap: '0.5rem',
+  alignItems: 'center',
+})
+
+export const TitleLogo = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  strong: {
+    fontSize: '$sm',
+  },
+  span: {
+    fontSize: '$xs',
+  },
+})
