@@ -32,9 +32,11 @@ export default function Products({ product }: ProductProps) {
         priceID: product.defaultPriceId,
       })
 
-      const { checkoutURL } = response.data
+      console.log(response)
 
-      window.location.href = checkoutURL
+      const { checkoutUrl } = response.data
+
+      window.location.href = checkoutUrl
     } catch (err) {
       setIsCreatingCheckoutSession(false)
 
