@@ -34,7 +34,7 @@ export default function Products({ product }: ProductProps) {
 
       const { checkoutURL } = response.data
 
-      window.location.href = checkoutUrl
+      window.location.href = checkoutURL
     } catch (err) {
       setIsCreatingCheckoutSession(false)
 
